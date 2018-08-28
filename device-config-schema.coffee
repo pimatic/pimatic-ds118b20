@@ -6,10 +6,10 @@ module.exports = {
     extensions: ["xLink"]
     properties:
       hardwareId:
-        description: "the id of the sensor"
+        description: "The ID of the sensor."
         type: "string"
       interval:
-        interval: "Interval in ms so read the sensor"
+        description: "Interval in ms to read the sensor."
         type: "integer"
         default: 10000
       calibration:
