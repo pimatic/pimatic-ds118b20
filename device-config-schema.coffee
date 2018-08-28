@@ -12,5 +12,9 @@ module.exports = {
         interval: "Interval in ms so read the sensor"
         type: "integer"
         default: 10000
+      calibration:
+        description: "Expression for calibrating the sensor value; $value is a placeholder for the value itself."
+        type: "string"
+        default: "$value"
   }
 }
